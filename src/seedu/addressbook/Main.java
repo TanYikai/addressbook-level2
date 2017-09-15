@@ -87,6 +87,8 @@ public class Main {
             CommandResult result = executeCommand(command);
             recordResult(result);
             ui.showResultToUser(result);
+            //comment to test bugs
+            System.out.print("Testing for branching");
 
         } while (!ExitCommand.isExit(command));
     }
